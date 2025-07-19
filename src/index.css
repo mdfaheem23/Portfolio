@@ -270,7 +270,21 @@ button:hover{
   color:white;
   background-color: black;
 }
-@media(max-width:360px){
+@media(max-width:370px){
+  .HeadName{
+    width:100%;
+  }
+  .para1{
+    margin-left: 20px;
+  }
+.cat{
+  display: block;
+  justify-content: center;
+  position: relative;
+  right:70px;
+  /* margin-right: 20px; */
+  padding-right: 15px;
+  }
   .body{
     margin:0;
     padding: 0;
@@ -286,17 +300,30 @@ button:hover{
     justify-content: center;
     text-align: center;
     flex-direction: column;
-    margin-left:-15px;
+    
+    margin-left:-11px;
   }
   .container1{
     width:370px;
   }
   .container,.container1,.container2{
+    padding:10px 10px;
     transform: scale(0.9);
   }
   .checkout,.checkout1,.checkout2{
     position: relative;
     top:10px;
+  }
+  .css{
+    margin-top: 10px;
+    display:inline-block;
+  }
+  .cplus{
+    display:inline-block;
+  }
+  .java{
+    margin-top: 10px;
+    display: block;
   }
 }
 @media(max-width:500px){

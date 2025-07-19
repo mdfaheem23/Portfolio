@@ -26,8 +26,10 @@ function App() {
     window.open()
   }
   useGSAP(()=>{
+    const Screenwidth=window.innerWidth;
+    const Startx= Screenwidth>400? 1150:Screenwidth-10;
     gsap.from('.bird',{
-      x:1150,
+      x:Startx,
       duration:4,
       delay:0,
       yoyo:true,
@@ -107,8 +109,8 @@ function App() {
         <div className='title-name'></div>
             <span className='pixel para1'>Web Developer</span>
           </div>
-           
             <img className="cat" src="./cat.gif" alt="Its a Cat"/>
+           
             {/* </div> */}
       </div>
       <div className='wrapper'>
@@ -135,11 +137,11 @@ function App() {
             <h2 className='pixel text'>HELLO GUYZ MYSELF MOHAMMED FAHEEM <br/>I LOVE DOING FRONT-END WORK <br/>MY SKILLS ARE:<br/><br/>
             <img src="./react2.svg" className='react'/><span className='pixel white'>&nbsp;REACT</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <img src="./js.svg" className='react'/><span className='pixel white'>&nbsp;JAVASCRIPT</span>&nbsp;&nbsp;
-            <img src="./css.svg" className='react'/><span className='pixel white'>&nbsp;CSS</span>&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
+            <span className='css'><img src="./css.svg" className='react'/><span className='pixel white'>&nbsp;CSS</span></span>&nbsp;&nbsp;&nbsp;&nbsp;<br/><br/>
             <img src="./html.svg" className='react'/><span className='pixel white'>&nbsp;HTML</span>&nbsp;&nbsp;&nbsp;&nbsp;
             <img src="./c.svg" className='react'/><span className='pixel white'>&nbsp;C</span>&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src="./c++.svg" className='react'/><span className='pixel white'>&nbsp;C++</span>&nbsp;&nbsp;
-            <img src="./java.svg" className='react'/><span className='pixel white'>&nbsp;JAVA</span></h2>
+            <span className='cplus'><img src="./c++.svg" className='react '/><span className='pixel white'>&nbsp;C++</span></span>&nbsp;&nbsp;
+           <span className='java'><img src="./java.svg" className='react'/><span className='pixel white'>&nbsp;JAVA</span></span></h2>
           </div>
         <div className="icons">
         <img src="./github.png" className='github'onClick={Github}/>
