@@ -216,26 +216,6 @@ body {
     left:1rem;
     cursor: pointer;
   }
- 
-/* .line{
-  height:5px;
-  width:100%;
-  color:black;
-  position:relative;
-  top:200px;
-}
-.line p{
-    border: none;
-    height: 100px;
-    background-color: black;
-    font-weight: 900;
-    margin: 20px 0;
-  } */
-/* .color{
-  height:10rem;;
-  width:100%;
-  background-color: #EA5B6F;
-} */
 .footer{
   position:relative;
   height:500px;
@@ -327,6 +307,22 @@ button:hover{
     margin-top: 10px;
     display: block;
   }
+  .icons{
+    display: flex;
+    justify-content: center;
+    width:70%;
+    position: relative !important;
+    top:-20rem !important;
+    /* right:10rem; */
+    left:6em !important;
+    transform: scale(0.88);
+  }
+  /* .instagram,.linkedin,.github{
+    position: relative;
+    height:30px;
+    width:30px;
+    left:10rem;
+  } */
 }
 @media(max-width:500px){
   .body{
