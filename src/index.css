@@ -270,7 +270,7 @@ button:hover{
   color:white;
   background-color: black;
 }
-@media(max-width:370px){
+@media(max-width:412px){
   .HeadName{
     width:100%;
   }
@@ -299,16 +299,18 @@ button:hover{
     display:flex;
     justify-content: center;
     text-align: center;
-    flex-direction: column;
-    
-    margin-left:-11px;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    flex:1 1 100%;
+    /* margin-left:-11px; */
   }
   .container1{
-    width:370px;
+    width:90%;
   }
   .container,.container1,.container2{
-    padding:10px 10px;
-    transform: scale(0.9);
+    justify-content: center;
+    /* padding:10px 10px; */
+    transform: scale(1);
   }
   .checkout,.checkout1,.checkout2{
     position: relative;
