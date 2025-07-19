@@ -270,7 +270,40 @@ button:hover{
   color:white;
   background-color: black;
 }
+@media(max-width:360px){
+  .body{
+    margin:0;
+    padding: 0;
+  }
+  .text{
+    font-size:0rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .wrapper{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-left:-15px;
+  }
+  .container1{
+    width:370px;
+  }
+  .container,.container1,.container2{
+    transform: scale(0.9);
+  }
+  .checkout,.checkout1,.checkout2{
+    position: relative;
+    top:10px;
+  }
+}
 @media(max-width:500px){
+  .body{
+    margin:0;
+    padding: 0;
+  }
   .HeadName{
     top:0rem;
   }
@@ -288,19 +321,18 @@ button:hover{
     top:100px;
   }
  .checkout1,.checkout,.checkout2{
-  margin:0;
   text-align: center;
   height:50px;
   position: relative;
-  top:1rem;
-  left:0.3rem;
+  margin: 1rem auto;
+  left:0;
  }
  .container1,.container,.container2{
   display:flex;
   justify-content: center;
   align-items: center;
   margin:0;
- margin:18px 5px;
+ margin:10px 5px;
  }
  .pixelimage{
   position: relative;
