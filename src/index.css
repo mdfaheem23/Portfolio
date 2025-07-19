@@ -270,3 +270,60 @@ button:hover{
   color:white;
   background-color: black;
 }
+@media(max-width:500px){
+  .HeadName{
+    top:0rem;
+  }
+  .name{
+    font-size: 2rem;
+  }
+  .para1{
+    font-size: 1rem;
+  }
+  .cat{
+    height:70px;
+    width:70px;
+    position: relative;
+    right:10em;
+    top:100px;
+  }
+ .checkout1,.checkout,.checkout2{
+  margin:0;
+  text-align: center;
+  height:50px;
+  position: relative;
+  top:1rem;
+  left:0.3rem;
+ }
+ .container1,.container,.container2{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin:0;
+ margin:18px 5px;
+ }
+ .pixelimage{
+  position: relative;
+  left:0rem;
+  top:1rem;
+  transform:scale(0.8);
+ }
+ .react{
+  position: relative;
+  height:20px;
+  left:1rem;
+  font-size: 10px;
+  margin-right: 1px;
+ }
+ .endingtext{
+  font-size: 0px;
+  left:1rem;
+  top:2rem;
+ }
+ .text{
+  font-size: 20px;
+ }
+ .white{
+  margin-left: 2px;
+ }
+}
