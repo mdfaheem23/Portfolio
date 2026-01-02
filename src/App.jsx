@@ -2,16 +2,16 @@ import './App.css'
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 
-
 function App() {
+  
   const movieWeb=()=>{
     window.open('https://movie-website-4jfg.vercel.app/',"_blank");
   }
-  const DontClick=()=>{
-    window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1","_blank");
+  const ResumeChatbot=()=>{
+    window.open("https://huggingface.co/spaces/mdfaheem2306/ResumeBuilder_JobScraper_Agent","_blank");
   }
-  const weatherapi=()=>{
-    window.open("https://openweathermap.org/api","_blank");
+  const Chatbot=()=>{
+    window.open("https://huggingface.co/spaces/mdfaheem2306/agent","_blank");
   }
   const Github=()=>{
     window.open("https://github.com/mdfaheem23/Movie-Website","_blank");
@@ -120,13 +120,13 @@ function App() {
         <button className="checkout pixel" onClick={movieWeb}>Check Out</button>
       </div>
       <div className="container1">
-        <h4 className="pixel weatherfont">Weather Website made by Noob</h4>
+        <h4 className="pixel weatherfont">Chatbot</h4>
         {/* <img src="./weather.png" className='weather'></img> */}
-        <button className="checkout1 pixel" onClick={weatherapi}>Read About Weather Api</button>
+        <button className="checkout1 pixel" onClick={Chatbot}>Check Out</button>
       </div>
       <div className="container2">
-        <h4 className="pixel">Seriously Dont Know What to Add</h4>
-        <button className="checkout2 pixel" onClick={DontClick}>Don't Click This</button>
+        <h4 className="pixel">Multi-Agent Career Assistant</h4>
+        <button className="checkout2 pixel" onClick={ResumeChatbot}>Check Out</button>
       </div>
       </div>
       <br/><br/><br/><br/><br/>
@@ -150,8 +150,6 @@ function App() {
       </div>
         </div>
       </footer>
-    
-     
     </>
   )
 }
