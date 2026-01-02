@@ -120,13 +120,13 @@ function App() {
         <button className="checkout pixel" onClick={movieWeb}>Check Out</button>
       </div>
       <div className="container1">
-        <h4 className="pixel weatherfont">Chatbot</h4>
+        <h4 className="pixel">Multi-Agent Career Assistant</h4>
         {/* <img src="./weather.png" className='weather'></img> */}
-        <button className="checkout1 pixel" onClick={Chatbot}>Check Out</button>
+        <button className="checkout1 pixel" onClick={ResumeChatbot}>Check Out</button>
       </div>
       <div className="container2">
-        <h4 className="pixel">Multi-Agent Career Assistant</h4>
-        <button className="checkout2 pixel" onClick={ResumeChatbot}>Check Out</button>
+        <h4 className="pixel">Personal Chatbot</h4>
+        <button className="checkout2 pixel" onClick={Chatbot}>Check Out</button>
       </div>
       </div>
       <br/><br/><br/><br/><br/>
